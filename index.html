@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="shortcut icon" href="C:\Users\WINDOWSLAPTOP11510\Desktop\form\img\R.png" type="image/x-icon">
+    <style>
+        form {
+            margin-top: 50px;
+            margin-left: 160px;
+            margin-bottom: 50px;
+            margin-right: 160px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border: solid gray 2px;
+            background-color: green;
+        }
+        body {
+            text-align: center;
+        }
+        #proffession {
+        color: rgb(13, 13, 14);
+        text-align: top, center;
+        }
+        #student {
+            color: rgb(44, 124, 230);
+        }
+        #rang {
+            color: rgb(253, 253, 253);
+            background-color: rgb(102, 48, 187);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name   ">Name</label>
+        <input type="text" id="name   "><br><br>
+
+        <label for="surname">Surname</label>
+        <input type="text" id="surname"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email"><br><br>
+
+        <label for="date">Birth date</label>
+        <input type="date" id="date"><br><br>
+
+        <h4 id="proffession">What are you?</h4>
+        <label for="sport">Sportsman</label>
+        <input type="checkbox" id="sport">
+        <label for="student">Student</label>
+        <input type="checkbox" id="student"><br><br>
+
+        <h4>What is your gender?</h4>
+        <label for="gender">Male</label>
+        <input type="radio" name="gender">
+        <label for="gender">Female</label>
+        <input type="radio" name="gender">
+        <label for="gender">Gay :)</label>
+        <input type="radio" name="gender"><br><br>
+
+        <label for="information">Education</label>
+        <select>
+            <option value="">High school</option>
+            <option value="">College degree</option>
+            <option value="">Bacholar</option>
+            <option value="">Magister</option>
+            <option value=""">Doctor</option>
+        </select><br><br>
+        <label id="rang" for="text">Interests</label><br>
+        <textarea  id="text" cols="60" rows="20"></textarea><br><br>
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
